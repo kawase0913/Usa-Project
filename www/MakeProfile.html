@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>プロフィール編集画面</title>
+		<script src="importantJS/ncmb.min.js"></script>
+        <script src="importantJS/key.js"></script>
+        <script src="js/MAKEPROFILE.js"></script>
+		<link rel="stylesheet" href="css/makeProfile.css">
+	</head>
+	<body>
+		<button id="return"onclick="location.href='Profile.html'">戻る</button>
+        <button id="doSave" hidden>保存</button>
+
+		<input type="file" name="upfile" id="setAicon"  name="アイコン画像設定"></input>
+
+		<label id="messeage">アカウント名
+			<br>
+			<input type="text" id="mekeName" placeholder="アカウント名">
+		</label>
+
+		<label id="oneComment">一言コメント
+			<br>
+			<input type="text" id="text">
+		</label>
+	</body>
+</html>
